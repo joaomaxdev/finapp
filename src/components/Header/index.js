@@ -13,7 +13,8 @@ const statusBarHeight = StatusBar.currentHeight ? StatusBar.currentHeight + 22 :
 export default function Header({ name }) {
   return (
     <View style={style.container}>
-      |<View style={style.content}>
+
+      <View style={style.content}>
         <Text style={style.username}>{name}</Text>
 
         <TouchableOpacity activeOpacity={0.9} style={style.buttonUser}>
